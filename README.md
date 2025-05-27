@@ -13,6 +13,7 @@ TABLE OF CONTENTS
  * Styling
  * JavaScript Functionality
  * Contribution
+ * Contributors
  * License
 ___________________________________________________________________________________________________________________________________________________________________
 
@@ -102,7 +103,6 @@ The script tag at the end of index.html contains simple JavaScript for enhanced 
  * Section Fade-in Animation: Uses IntersectionObserver to animate sections into view as the user scrolls down the page, providing a dynamic user experience. ✨
 __________________________________________________________________________________________________________________________________________________________________
 
-
 CONTRIBUTION
 
 We welcome contributions! If you have suggestions for improvements or want to contribute to the website:
@@ -110,6 +110,13 @@ We welcome contributions! If you have suggestions for improvements or want to co
 2) Create a new branch.
 3) Commit your changes and push
 4) Make a pull request describing your improvements.
+___________________________________________________________________________________________________________________________________________________________________
+
+CONTRIBUTORS
+
+* LAKSHMI NAIR- Initial Setup and Basic Structure Enhancements
+* SPOORTI GUNDEKAR- Feature Expansion and Interactive Elements
+* SHREE RAKSHA- Content and Styling Refinements with Improved Accessibility
 ___________________________________________________________________________________________________________________________________________________________________
 
 LICENSE
