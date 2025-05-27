@@ -767,3 +767,60 @@ footer {
 #back-to-top:hover {
     background: var(--uipath-blue-light);
 }
+
+
+/* Contact Section - Add style for new contact links */
+.contact-card .contact-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px; /* Spacing from existing text */
+    font-weight: 500;
+    color: var(--uipath-red); /* Link color */
+    transition: color 0.3s ease;
+}
+
+.contact-card .contact-link i {
+    margin-right: 8px;
+    font-size: 1rem;
+    color: var(--uipath-red);
+}
+
+.contact-card .contact-link:hover {
+    color: var(--uipath-red-light);
+}
+
+/* Form input placeholder styling */
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: var(--secondary-text); /* Lighter color for placeholders */
+    opacity: 0.7; /* Make them slightly transparent */
+}
+
+/* Accessibility: Focus outline for interactive elements */
+button:focus,
+a:focus,
+input:focus,
+textarea:focus {
+    outline: 2px solid var(--uipath-blue);
+    outline-offset: 2px;
+}
+
+/* Minor general refinements */
+.section-description {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* Footer social icon spacing */
+.footer-social a {
+    margin-right: 20px; /* Increased spacing for social icons */
+}
+
+/* Media query adjustments (ensure consistency and minor tweaks) */
+@media (max-width: 768px) {
+    /* ... (existing media queries from Commit 2) ... */
+    .contact-card .contact-link {
+        margin-top: 10px; /* Adjust spacing on smaller screens */
+    }
+}
