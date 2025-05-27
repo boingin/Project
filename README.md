@@ -12,6 +12,7 @@ TABLE OF CONTENTS
  * Installation and Usage
  * Styling
  * JavaScript Functionality
+ * Branch Description
  * Contribution
  * Contributors
  * License
@@ -102,6 +103,14 @@ The script tag at the end of index.html contains simple JavaScript for enhanced 
  * Back-to-Top Button: Controls the visibility of the back-to-top button based on scroll position and provides smooth scrolling. 🔝
  * Section Fade-in Animation: Uses IntersectionObserver to animate sections into view as the user scrolls down the page, providing a dynamic user experience. ✨
 __________________________________________________________________________________________________________________________________________________________________
+
+BRANCH DESCRIPTION
+
+There are three branches including the main branches
+* main (default)- The main Branch which has B1 and B2 merged into it with the contributions added.
+* B1- The branch connected to main where few changes were made and Readme file was added. This consists of code before merging with the contributors code.
+* B2- All the other information was added into this branch and was merged into main. This consists of code before pushing it to Github.
+___________________________________________________________________________________________________________________________________________________________________
 
 CONTRIBUTION
 
