@@ -738,3 +738,77 @@ section h2 {
         padding: 30px 20px;
     }
 }
+
+
+/* Responsive Styles - Refinements for Mobile Navbar */
+@media (max-width: 992px) {
+    .navbar .container {
+        flex-wrap: nowrap; /* Prevent wrapping for smaller screens */
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 70px; /* Adjusted to be just below the navbar */
+        left: 0;
+        background-color: var(--background-dark);
+        border-top: 1px solid rgba(255,255,255,0.1);
+        padding: 20px 0;
+        /* Start hidden (off-screen top) */
+        transform: translateY(-100%);
+        transition: transform 0.4s ease-in-out;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+        max-height: calc(100vh - 70px); /* Limit height to viewport */
+        overflow-y: auto; /* Allow scrolling if links exceed height */
+    }
+
+    .nav-links.nav-active {
+        transform: translateY(0); /* Slide down when active */
+    }
+
+    .nav-links a {
+        padding: 12px 20px;
+        text-align: center;
+        width: 100%;
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .nav-links a:last-child {
+        border-bottom: none;
+    }
+
+    .nav-toggle {
+        display: block; /* Show hamburger icon */
+        color: var(--white); /* Ensure toggle icon is visible */
+    }
+
+    /* ... (rest of media queries from Commit 1) ... */
+}
+
+@media (max-width: 768px) {
+    /* ... (existing media queries from Commit 1) ... */
+
+    .hero-buttons .btn {
+        width: 90%; /* Slightly wider buttons on small mobiles */
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .tab-buttons {
+        flex-direction: column; /* Stack tab buttons on small screens */
+        border-bottom: none; /* Remove bottom border from container */
+    }
+
+    .tab-button {
+        width: 100%; /* Full width for stacked buttons */
+        margin-bottom: 5px; /* Spacing between stacked buttons */
+        border-bottom: 1px solid var(--border-color); /* Add individual border */
+        border-radius: 5px; /* Slight roundness for stacked buttons */
+    }
+
+    .tab-button.active {
+        border-bottom: 1px solid var(--uipath-red);
+        background-color: rgba(204, 34, 46, 0.05); /* Light highlight for active tab */
+    }
+}
