@@ -1,5 +1,5 @@
                                            UIPATH COMMUNITY - AMITY UNIVERSITY BENGALURU (ABHIPSHA JENA) 🤖✨
-===================================================================================================================================================================
+===========================================================================================================
 
 This repository contains the official website for the UiPath Community at Amity University Bengaluru (AUB), designed to empower students with skills in automation, AI, and Robotic Process Automation (RPA).
 
